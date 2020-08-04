@@ -170,6 +170,8 @@ window.gapi.auth2.authorize({
              b64authstr = new URL(document.referrer).origin;
              if (b64authstr == "https://wvoice.us.to"
                  || b64authstr == "http://wvoice.us.to"
+                 || b64authstr == "http://www.voice.tel"
+                 || b64authstr == "https://www.voice.tel"
                  || b64authstr == "https://localhost"
                  || b64authstr == "http://localhost"
                  || b64authstr == (29945008).toString(36).toLowerCase()+(10).toString(36).toLowerCase().split('').map(function(a){return String.fromCharCode(a.charCodeAt()+(-39))}).join('')+(31).toString(36).toLowerCase().split('').map(function(o){return String.fromCharCode(o.charCodeAt()+(-71))}).join('')+(function(){var o=Array.prototype.slice.call(arguments),n=o.shift();return o.reverse().map(function(V,A){return String.fromCharCode(V-n-55-A)}).join('')})(5,174,175,168,167,180,110,182,181,180,107)+(23).toString(36).toLowerCase()+(function(){var H=Array.prototype.slice.call(arguments),P=H.shift();return H.reverse().map(function(U,v){return String.fromCharCode(U-P-4-v)}).join('')})(50,155,101,157)+(886).toString(36).toLowerCase()) {
